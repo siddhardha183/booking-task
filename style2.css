@@ -1,0 +1,77 @@
+/* General Reset */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #e6f7ff; /* Light bluish background */
+    color: #333; /* Text color */
+}
+
+/* Center Section Styling */
+#booking {
+    padding: 50px 20px;
+    background-color: #cceeff; /* Slightly deeper bluish background for the booking section */
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+/* Heading Styling */
+#booking h2 {
+    color: #005580; /* Dark bluish color for the heading */
+    font-size: 24px;
+    margin-bottom: 20px;
+}
+
+/* Form Styling */
+.booking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+label {
+    font-size: 14px;
+    font-weight: bold;
+    color: #003d66; /* Slightly darker bluish color */
+}
+
+input {
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #80c1ff; /* Soft border matching the theme */
+    border-radius: 5px;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+input:focus {
+    border-color: #005580; /* Focus color */
+}
+
+/* Button Styling */
+.form-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: white;
+    background-color: #007acc; /* Vibrant bluish button */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.form-btn:hover {
+    background-color: #005580; /* Darker shade on hover */
+}
+
+/* Centering the Section */
+center {
+    text-align: center;
+}

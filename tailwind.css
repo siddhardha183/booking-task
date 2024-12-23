@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+    line-height: 1.6;
+    background: rgb(2, 37, 49); 
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
+
+.navbar div {
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 25px;
+    padding: 10px 15px;
+    border-radius: 20px; 
+}
+
+.navbar a:hover {
+    background: rgba(255, 255, 255, 0.2); 
+    transform: scale(1.1); 
+    color: #ffcc80;
+}
+.landing {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+    padding: 5px 5px;
+    position: relative; 
+}
+.landing h1{
+        color: #fff;
+        font-size: 80px;
+        margin-left: 480px;
+        margin-right: 300px;
+        margin-top: 1px;
+}
+.landing p{
+        color: white;
+        font-size: 30px;
+        margin-top: 20px;
+        margin-left: 580px;
+        margin-right: 380px;
+}
+.card-btn
+{
+  align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 200px;
+  margin-top: 20px;
+  background-color: rgb(82, 82, 213);
+  color: white;
+  border-radius: 10px;
+  margin-top: 50px;
+  font-size: 20px;
+  margin-left: 700px;
+  margin-bottom: 10px;
+}
+input
+{
+    align-items: center;
+  justify-content: center;
+  height: 60px;
+  width: 500px;
+  font-size: 20px;
+  color: white;
+  border-radius: 10px;
+  margin-left: 50px;
+}
